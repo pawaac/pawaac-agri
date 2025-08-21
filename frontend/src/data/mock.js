@@ -151,6 +151,96 @@ export const autonomyData = {
   }
 };
 
+export const visionModelData = {
+  title: "AI Vision Model",
+  subtitle: "Next-Level Precision Farming with Computer Vision",
+  description: "Our advanced AI vision model revolutionizes agriculture by providing real-time crop analysis, yield prediction, and precision farming insights that maximize productivity and sustainability.",
+  features: [
+    {
+      icon: "Brain",
+      title: "Smart Crop Analysis",
+      description: "AI-powered computer vision analyzes crop health, growth patterns, and stress indicators in real-time",
+      capabilities: [
+        "Disease detection with 95% accuracy",
+        "Nutrient deficiency identification",
+        "Growth stage monitoring",
+        "Pest infestation alerts"
+      ],
+      metrics: {
+        accuracy: "95%",
+        coverage: "100 acres/hour",
+        detection: "Early stage"
+      }
+    },
+    {
+      icon: "TrendingUp",
+      title: "Yield Prediction",
+      description: "Machine learning algorithms predict harvest yields with unprecedented accuracy for better planning",
+      capabilities: [
+        "Season-long yield forecasting",
+        "Weather impact analysis",
+        "Crop maturity estimation",
+        "Quality grade prediction"
+      ],
+      metrics: {
+        accuracy: "92%",
+        timeline: "120 days ahead",
+        precision: "Field-level"
+      }
+    },
+    {
+      icon: "Target",
+      title: "Precision Application",
+      description: "Variable rate technology optimizes input application based on real-time field conditions",
+      capabilities: [
+        "Variable rate spraying",
+        "Targeted fertilizer application",
+        "Water management optimization",
+        "Selective harvesting guidance"
+      ],
+      metrics: {
+        efficiency: "40% improvement",
+        waste: "60% reduction",
+        coverage: "Centimeter precision"
+      }
+    }
+  ],
+  benefits: [
+    {
+      title: "Increase Productivity",
+      value: "35%",
+      description: "Higher yields through optimized farming practices"
+    },
+    {
+      title: "Reduce Input Costs",
+      value: "45%",
+      description: "Precise application reduces waste and saves money"
+    },
+    {
+      title: "Improve Sustainability",
+      value: "50%",
+      description: "Less chemical usage and environmental impact"
+    },
+    {
+      title: "Save Time",
+      value: "60%",
+      description: "Automated analysis and decision-making"
+    }
+  ],
+  techSpecs: {
+    title: "Technical Specifications",
+    specs: [
+      { label: "Image Resolution", value: "4K Ultra HD" },
+      { label: "Processing Speed", value: "Real-time" },
+      { label: "AI Model", value: "Deep Learning CNN" },
+      { label: "Training Data", value: "10M+ images" },
+      { label: "Accuracy Rate", value: "95%+" },
+      { label: "Detection Classes", value: "50+ types" }
+    ]
+  },
+  image: "https://images.unsplash.com/photo-1738748140319-b07cd28c41d2"
+};
+
 export const ctaData = {
   title: "Bring Efficiency to Your Farm",
   subtitle: "Experience the Future of Precision Agriculture",
