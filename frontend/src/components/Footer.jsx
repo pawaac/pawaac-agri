@@ -28,9 +28,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 bg-green-600 rounded-lg">
-                <Plane className="w-6 h-6 text-white" />
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_crop-tech-drone/artifacts/6gd1aphi_pawak%20drone%20round%20black%20nd%20white%20svg.svg" 
+                alt={footerData.company}
+                className="w-10 h-10 bg-white rounded-lg p-1"
+              />
               <h3 className="text-2xl font-bold">{footerData.company}</h3>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
