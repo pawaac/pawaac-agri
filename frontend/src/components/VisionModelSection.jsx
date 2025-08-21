@@ -209,7 +209,7 @@ const VisionModelSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Processing</div>
-                    <div className="text-xs text-gray-600">< 100ms</div>
+                    <div className="text-xs text-gray-600">&lt; 100ms</div>
                   </div>
                 </div>
               </div>
