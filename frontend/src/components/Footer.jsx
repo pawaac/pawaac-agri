@@ -43,11 +43,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-green-500" />
-                <span className="text-gray-300">{footerData.contact.phone}</span>
+                <a href='tel:+1 (555) 123-4567' className="text-gray-300">{footerData.contact.phone}</a>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Mail className="w-4 h-4 text-green-500" />
-                <span className="text-gray-300">{footerData.contact.email}</span>
+                <a href='mail:info@pawaac.com' className="text-gray-300">{footerData.contact.email}</a>
               </div>
               <div className="flex items-start gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-green-500 mt-0.5" />

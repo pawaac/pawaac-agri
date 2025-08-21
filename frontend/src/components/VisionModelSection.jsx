@@ -125,7 +125,7 @@ const VisionModelSection = () => {
               {visionModelData.benefits.map((benefit, index) => (
                 <div 
                   key={index}
-                  className="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-colors duration-300"
+                  className="text-center bg-white/10 backdrop-blur-sm rounded-2xl lg:md:p-6 p-2 hover:bg-white/20 transition-colors duration-300"
                 >
                   <div className="text-4xl md:text-5xl font-bold text-white mb-2">
                     {benefit.value}
@@ -190,7 +190,7 @@ const VisionModelSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
               
               {/* Floating AI Elements */}
-              <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md rounded-2xl p-4 animate-float">
+              <div className="absolute top-6 lg:md:left-6 left-3 bg-white/90 backdrop-blur-md rounded-2xl lg:md:p-4 p-2 animate-float">
                 <div className="flex items-center gap-3">
                   <div className="p-2 bg-green-100 rounded-lg">
                     <Eye className="w-5 h-5 text-green-600" />
@@ -202,7 +202,7 @@ const VisionModelSection = () => {
                 </div>
               </div>
 
-              <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-md rounded-2xl p-4 animate-float animation-delay-1000">
+              <div className="absolute top-6 lg:md:right-6 right-3 bg-white/90 backdrop-blur-md rounded-2xl lg:md:p-4 p-2 animate-float animation-delay-1000 z-20">
                 <div className="flex items-center gap-3">
                   <div className="p-2 bg-blue-100 rounded-lg">
                     <Zap className="w-5 h-5 text-blue-600" />
@@ -214,7 +214,7 @@ const VisionModelSection = () => {
                 </div>
               </div>
 
-              <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md rounded-2xl p-4">
+              <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md rounded-2xl p-4 z-10">
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="font-semibold text-gray-900 mb-1">Crop Health Analysis</div>

@@ -68,10 +68,10 @@ const CTASection = () => {
                     Request Submitted!
                   </>
                 ) : (
-                  <>
+                  <a href='#request' className='flex items-center'>
                     {ctaData.buttonText}
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </>
+                  </a>
                 )}
               </Button>
               
@@ -80,8 +80,10 @@ const CTASection = () => {
                 size="lg"
                 className="border-2 border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 group"
               >
-                <Phone className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
-                Call Sales
+                <a href='tel:+1 (555) 123-4567' className='flex items-center'>
+                  <Phone className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
+                  Call Sales
+                </a>
               </Button>
             </div>
 
@@ -89,11 +91,11 @@ const CTASection = () => {
             <div className="flex flex-wrap gap-6 text-sm text-gray-500">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <a href='tel:+1 (555) 123-4567'>+1 (555) 123-4567</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>demo@pawaac.com</span>
+                <a href='mail:demo@pawaac.com'>demo@pawaac.com</a>
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
@@ -137,7 +139,7 @@ const CTASection = () => {
                 </div>
               </div>
 
-              <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md rounded-2xl p-4">
+              <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md rounded-2xl p-4 z-10">
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="font-semibold text-gray-900 mb-1">ROI Improvement</div>

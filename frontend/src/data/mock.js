@@ -7,7 +7,7 @@ export const heroData = {
   backgroundImage: "https://images.unsplash.com/photo-1713952152768-5f28b8093166",
   ctaText: "Request a Demo",
   stats: [
-    { value: "6", unit: "acres/hour", label: "Coverage" },
+    { value: "6", unit: "acres/hrs", label: "Coverage" },
     { value: "22", unit: "mins", label: "Flight Time" },
     { value: "2", unit: "km", label: "Range" }
   ]
@@ -288,8 +288,7 @@ export const footerData = {
     ],
     company: [
       { label: "About Us", href: "#" },
-      { label: "Careers", href: "#" },
-      { label: "Contact", href: "#" }
+      { label: "Contact", href: "#demo" }
     ]
   },
   social: [

@@ -13,7 +13,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative lg:md:min-h-screen min-h-screen max-h-max flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -28,7 +28,7 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
-          <div className="mb-8 animate-fade-in-up">
+          <div className="lg:md:mb-8 mb-4 lg:md:mt-0 mt-14 animate-fade-in-up">
             <Badge className="bg-green-500/20 text-green-100 border-green-400/30 px-4 py-2 text-sm font-medium backdrop-blur-sm">
               Advanced Agricultural Drone Technology
             </Badge>
@@ -70,7 +70,7 @@ const HeroSection = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto animate-fade-in-up animation-delay-1000">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:md:mb-0 mb-6 gap-8 mx-auto animate-fade-in-up animation-delay-1000">
             {heroData.stats.map((stat, index) => (
               <div
                 key={index}
@@ -88,11 +88,11 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-white/70 rounded-full mt-2 animate-pulse"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

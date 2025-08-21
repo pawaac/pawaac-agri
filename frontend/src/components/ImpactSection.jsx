@@ -83,7 +83,7 @@ const ImpactSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
               
               {/* Floating Stats */}
-              <div className="absolute bottom-6 left-6 right-6">
+              <div className="absolute bottom-6 left-6 right-6 z-10">
                 <div className="bg-white/90 backdrop-blur-md rounded-2xl p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">Coverage Efficiency</h4>
                   <div className="flex items-center justify-between">
