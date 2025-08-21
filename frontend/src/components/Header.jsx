@@ -35,11 +35,18 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className={`font-bold text-xl tracking-tight transition-colors ${
-              isScrolled ? 'text-gray-900' : 'text-white'
-            }`}>
-              {navData.logo}
-            </h1>
+            <div className="flex items-center gap-3">
+              <img 
+                src={navData.logoImage} 
+                alt={navData.logo}
+                className="w-10 h-10"
+              />
+              <h1 className={`font-bold text-xl tracking-tight transition-colors ${
+                isScrolled ? 'text-gray-900' : 'text-white'
+              }`}>
+                {navData.logo}
+              </h1>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
