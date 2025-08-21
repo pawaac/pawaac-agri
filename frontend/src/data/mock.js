@@ -257,9 +257,11 @@ export const ctaData = {
 
 export const navData = {
   logo: "Pawaac",
+  logoImage: "https://customer-assets.emergentagent.com/job_crop-tech-drone/artifacts/6gd1aphi_pawak%20drone%20round%20black%20nd%20white%20svg.svg",
   menuItems: [
     { label: "Specifications", href: "#specifications" },
     { label: "Impact", href: "#impact" },
+    { label: "AI Vision", href: "#vision" },
     { label: "Technology", href: "#technology" },
     { label: "Demo", href: "#demo" }
   ]
