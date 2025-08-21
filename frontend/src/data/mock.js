@@ -1,10 +1,10 @@
-// Mock data for Pawaac AG 365 Agricultural Drone Landing Page
+// Mock data for Pawaac Krishan Agricultural Drone Landing Page
 
 export const heroData = {
-  title: "Pawaac AG 365",
+  title: "Pawaac Krishan",
   subtitle: "Making Farming Smarter, Faster & Efficient",
   description: "Autonomous agri-drone designed for precision farming and maximum yield.",
-  backgroundImage: "https://images.unsplash.com/photo-1713952152768-5f28b8093166",
+  backgroundImage: "https://ik.imagekit.io/5nbfbjinp/ChatGPT%20Image%20Aug%2022,%202025,%2003_41_30%20AM.png?updatedAt=1755814314708",
   ctaText: "Request a Demo",
   stats: [
     { value: "6", unit: "acres/hrs", label: "Coverage" },
@@ -147,7 +147,7 @@ export const autonomyData = {
       "Weather integration",
       "Maintenance scheduling"
     ],
-    image: "https://images.pexels.com/photos/33528061/pexels-photo-33528061.jpeg"
+    image: "https://ik.imagekit.io/5nbfbjinp/ChatGPT%20Image%20Aug%2022,%202025,%2003_45_27%20AM.png?updatedAt=1755814543178"
   }
 };
 
@@ -238,15 +238,15 @@ export const visionModelData = {
       { label: "Detection Classes", value: "50+ types" }
     ]
   },
-  image: "https://images.unsplash.com/photo-1738748140319-b07cd28c41d2"
+  image: "https://ik.imagekit.io/5nbfbjinp/WhatsApp%20Image%202025-08-22%20at%2001.13.55.jpeg?updatedAt=1755813850020"
 };
 
 export const ctaData = {
   title: "Bring Efficiency to Your Farm",
   subtitle: "Experience the Future of Precision Agriculture",
-  description: "Join hundreds of progressive farmers who have revolutionized their operations with Pawaac AG 365. See how our autonomous drone technology can transform your farm's productivity and profitability.",
+  description: "Join hundreds of progressive farmers who have revolutionized their operations with Pawaac Krishan. See how our autonomous drone technology can transform your farm's productivity and profitability.",
   buttonText: "Request a Demo",
-  image: "https://images.unsplash.com/photo-1720071702672-d18c69cb475c",
+  image: "https://ik.imagekit.io/5nbfbjinp/WhatsApp%20Image%202025-08-22%20at%2001.13.56.jpeg?updatedAt=1755813850133",
   features: [
     "Free consultation and field assessment",
     "Customized demonstration for your crops",
@@ -271,13 +271,13 @@ export const footerData = {
   company: "Pawaac",
   description: "Leading agricultural drone technology for precision farming and maximum yield optimization.",
   contact: {
-    phone: "+1 (555) 123-4567",
+    phone: "+91 734 7711 100",
     email: "info@pawaac.com",
-    address: "123 Innovation Drive, AgriTech Park, CA 94105"
+    address: " 9th Main Rd, Jayanagar, Bengaluru, Karnataka 560011"
   },
   links: {
     product: [
-      { label: "AG 365 Specifications", href: "#" },
+      { label: "Krishan Specifications", href: "#" },
       { label: "Features", href: "#" },
       { label: "Pricing", href: "#" }
     ],

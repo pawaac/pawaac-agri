@@ -88,7 +88,7 @@ const ImpactSection = () => {
                   <h4 className="font-semibold text-gray-900 mb-2">Coverage Efficiency</h4>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-gray-600">Traditional Method</span>
-                    <span className="text-sm text-gray-600">AG 365 Drone</span>
+                    <span className="text-sm text-gray-600">Krishan Drone</span>
                   </div>
                   <div className="flex items-center gap-2 mt-1">
                     <div className="flex-1 bg-gray-200 rounded-full h-2">

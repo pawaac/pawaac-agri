@@ -80,7 +80,7 @@ const CTASection = () => {
                 size="lg"
                 className="border-2 border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 group"
               >
-                <a href='tel:+1 (555) 123-4567' className='flex items-center'>
+                <a href='tel:+91 734 7711 100' className='flex items-center'>
                   <Phone className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
                   Call Sales
                 </a>
@@ -91,11 +91,11 @@ const CTASection = () => {
             <div className="flex flex-wrap gap-6 text-sm text-gray-500">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <a href='tel:+1 (555) 123-4567'>+1 (555) 123-4567</a>
+                <a href='tel:+91 734 7711 100'>+91 734 7711 100</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <a href='mail:demo@pawaac.com'>demo@pawaac.com</a>
+                <a href='mail:info@pawaac.com'>info@pawaac.com</a>
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
@@ -172,12 +172,12 @@ const CTASection = () => {
           
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-gray-900 mb-1">1000+</div>
-              <div className="text-sm text-gray-600">Acres Covered Daily</div>
+              <div className="text-3xl font-bold text-gray-900 mb-1">20+</div>
+              <div className="text-sm text-gray-600">Tested Flights</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-gray-900 mb-1">50+</div>
-              <div className="text-sm text-gray-600">Farm Partners</div>
+              <div className="text-3xl font-bold text-gray-900 mb-1">100%</div>
+              <div className="text-sm text-gray-600">Autonomous</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-gray-900 mb-1">24/7</div>
